@@ -7,15 +7,16 @@ entries:
       dependencies:
         - condition: postgresql.enabled
           name: postgresql
-          repository: https://kubernetes-charts.storage.googleapis.com/
+          repository: https://s50600822.github.io/chart/
           version: 0.13.1
         - condition: redis.enabled
           name: redis
-          repository: https://kubernetes-charts.storage.googleapis.com/
+          repository: https://s50600822.github.io/chart/
           version: 7.0.0
       description: Airflow is a platform to programmatically author, schedule and monitor
         workflows
-      digest: 9781c602abe94afc3440926612d6ba78326a8e02912142328288351b31379bf6
+      #digest: 9781c602abe94afc3440926612d6ba78326a8e02912142328288351b31379bf6
+      digest: d504af077ab47dc3f97ead24414ba62c3a1a928fe62ef5c112c17f36b90625f3
       home: https://airflow.apache.org/
       icon: https://airflow.apache.org/_images/pin_large.png
       keywords:
@@ -28,7 +29,7 @@ entries:
       sources:
         - https://airflow.apache.org/
       urls:
-        - https://s50600822.github.io/chart/airflow/airflow-4.1.2.tgz
+        - https://s50600822.github.io/chart/airflow/airflow-4.1.2.tgz.org
       version: 4.1.2
   redis:
     - apiVersion: v1
@@ -37,7 +38,8 @@ entries:
       description: Open source, advanced key-value store. It is often referred to as
         a data structure server since keys can contain strings, hashes, lists, sets
         and sorted sets.
-      digest: 76670c9a4b529592b08e25ca1947a0944077a1760cd1278971405cf85182d1de
+      #digest: 76670c9a4b529592b08e25ca1947a0944077a1760cd1278971405cf85182d1de
+      digest: ff19f3c641b5b59759e883ef183c3c14a1b37d9ff0724d29fde3287a6f37b953
       home: http://redis.io/
       icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
       keywords:
@@ -59,7 +61,8 @@ entries:
       created: "2020-10-15T15:46:22.33082-04:00"
       description: Object-relational database management system (ORDBMS) with an emphasis
         on extensibility and on standards-compliance.
-      digest: 228090d688160c5f6783838d37a27fc9acd4207b8505913c5b04dbab1904c6fd
+      #digest: 228090d688160c5f6783838d37a27fc9acd4207b8505913c5b04dbab1904c6fd
+      digest: 76b841201ecaa161e99d750a9d7ea84f1dc106e23599c582bce839ce98dd9950
       home: https://www.postgresql.org/
       icon: https://www.postgresql.org/media/img/about/press/elephant.png
       keywords:
