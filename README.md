@@ -14,5 +14,11 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ```
 
+use:
+```
+bash
+helm repo add s50600822 https://s50600822.github.io/chart/
+helm pull s50600822/airflow --version 4.1.2
+```
 ### Support or Contact
 Nah, don't 
