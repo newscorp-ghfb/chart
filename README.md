@@ -4,8 +4,7 @@ I'm just hosting my own chart due to some customization needs.
 
 ### Available
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+Only these
 ```markdown
 
 1. airflow
